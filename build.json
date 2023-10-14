@@ -1,0 +1,71 @@
+{
+  "data": {
+    "project": {
+      "id": "ba768b00-b797-4755-a41b-25e35c64f2a1",
+      "persist": false,
+      "mutable": true,
+      "parentId": null,
+      "seed": 2055,
+      "title": "hello_world",
+      "description": "Showcase Cadence interactions",
+      "readme": "",
+      "accounts": [
+        {
+          "address": "0000000000000005",
+          "deployedContracts": [],
+          "state": "{\"value\":[{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"id\":\"A.0000000000000003.FlowToken.Vault\",\"fields\":[{\"value\":{\"value\":\"16789419410837209090\",\"type\":\"UInt64\"},\"name\":\"uuid\"},{\"value\":{\"value\":\"0.00000000\",\"type\":\"UFix64\"},\"name\":\"balance\"}]},\"type\":\"Resource\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"A.0000000000000003.FlowToken.Vault\",\"type\":\"String\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenBalance\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Balance}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenReceiver\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Receiver}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"}],\"type\":\"Array\"}\n",
+          "__typename": "Account"
+        },
+        {
+          "address": "0000000000000006",
+          "deployedContracts": [],
+          "state": "{\"value\":[{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"id\":\"A.0000000000000003.FlowToken.Vault\",\"fields\":[{\"value\":{\"value\":\"14411518807585587202\",\"type\":\"UInt64\"},\"name\":\"uuid\"},{\"value\":{\"value\":\"0.00000000\",\"type\":\"UFix64\"},\"name\":\"balance\"}]},\"type\":\"Resource\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"A.0000000000000003.FlowToken.Vault\",\"type\":\"String\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenReceiver\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Receiver}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenBalance\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Balance}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"}],\"type\":\"Array\"}\n",
+          "__typename": "Account"
+        },
+        {
+          "address": "0000000000000007",
+          "deployedContracts": [],
+          "state": "{\"value\":[{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"id\":\"A.0000000000000003.FlowToken.Vault\",\"fields\":[{\"value\":{\"value\":\"11096869481840902146\",\"type\":\"UInt64\"},\"name\":\"uuid\"},{\"value\":{\"value\":\"0.00000000\",\"type\":\"UFix64\"},\"name\":\"balance\"}]},\"type\":\"Resource\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"A.0000000000000003.FlowToken.Vault\",\"type\":\"String\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenBalance\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Balance}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenReceiver\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Receiver}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"}],\"type\":\"Array\"}\n",
+          "__typename": "Account"
+        },
+        {
+          "address": "0000000000000008",
+          "deployedContracts": [],
+          "state": "{\"value\":[{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"id\":\"A.0000000000000003.FlowToken.Vault\",\"fields\":[{\"value\":{\"value\":\"6341068275337658370\",\"type\":\"UInt64\"},\"name\":\"uuid\"},{\"value\":{\"value\":\"0.00000000\",\"type\":\"UFix64\"},\"name\":\"balance\"}]},\"type\":\"Resource\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"A.0000000000000003.FlowToken.Vault\",\"type\":\"String\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenReceiver\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Receiver}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenBalance\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Balance}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"}],\"type\":\"Array\"}\n",
+          "__typename": "Account"
+        },
+        {
+          "address": "0000000000000009",
+          "deployedContracts": [],
+          "state": "{\"value\":[{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"id\":\"A.0000000000000003.FlowToken.Vault\",\"fields\":[{\"value\":{\"value\":\"18014398509481984002\",\"type\":\"UInt64\"},\"name\":\"uuid\"},{\"value\":{\"value\":\"0.00000000\",\"type\":\"UFix64\"},\"name\":\"balance\"}]},\"type\":\"Resource\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"A.0000000000000003.FlowToken.Vault\",\"type\":\"String\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenBalance\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Balance}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"},{\"value\":[{\"key\":{\"value\":\"value\",\"type\":\"String\"},\"value\":{\"value\":{\"value\":{\"domain\":\"storage\",\"identifier\":\"flowTokenVault\"},\"type\":\"Path\"},\"type\":\"Optional\"}},{\"key\":{\"value\":\"path\",\"type\":\"String\"},\"value\":{\"value\":{\"domain\":\"public\",\"identifier\":\"flowTokenReceiver\"},\"type\":\"Path\"}},{\"key\":{\"value\":\"type\",\"type\":\"String\"},\"value\":{\"value\":\"Capability\\u003c\\u0026A.0000000000000003.FlowToken.Vault{A.0000000000000002.FungibleToken.Receiver}\\u003e\",\"type\":\"String\"}}],\"type\":\"Dictionary\"}],\"type\":\"Array\"}\n",
+          "__typename": "Account"
+        }
+      ],
+      "transactionTemplates": [
+        {
+          "id": "c2c1cbd8-ca47-4f7b-a994-764860b9fa82",
+          "script": "import HelloWorld from 0x05\n\ntransaction(greeting: String) {\n\n  prepare(acct: AuthAccount) {\n    log(acct.address)\n  }\n\n  execute {\n    HelloWorld.changeGreeting(newGreeting: greeting)\n  }\n}\n",
+          "title": "ChangeGreeting",
+          "__typename": "TransactionTemplate"
+        }
+      ],
+      "scriptTemplates": [
+        {
+          "id": "1bb30d8f-4965-484f-a68d-08f63b1b6800",
+          "script": "import HelloWorld from 0x05\n\npub fun main() {\n  log(HelloWorld.hello())\n}\n",
+          "title": "GetGreeting",
+          "__typename": "ScriptTemplate"
+        }
+      ],
+      "contractTemplates": [
+        {
+          "id": "e7771ead-398d-4bee-adaa-384b52078a46",
+          "script": "// HelloWorld.cdc\n//\n// Welcome to Cadence! This is one of the simplest programs you can deploy on Flow.\n//\n// The HelloWorld contract contains a single string field and a public getter function.\n//\n// Follow the \"Hello, World!\" tutorial to learn more: https://docs.onflow.org/cadence/tutorial/02-hello-world/\npub contract HelloWorld {\n  // Declare a public field of type String.\n  //\n  // All fields must be initialized in the init() function.\n  pub var greeting: String\n\n  // Public function that returns our friendly greeting!\n  access(all) fun changeGreeting(newGreeting: String) {\n    self.greeting = newGreeting\n  }\n\n  // Public function that returns our friendly greeting!\n  access(all) fun hello(): String {\n      return self.greeting\n  }\n\n  // The init() function is required if the contract contains any fields.\n  init() {\n    self.greeting = \"Hello, World!\"\n  }\n}\n",
+          "title": "HelloWorld",
+          "__typename": "ContractTemplate"
+        }
+      ],
+      "__typename": "Project"
+    }
+  }
+}
